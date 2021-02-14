@@ -1,0 +1,27 @@
+{
+  "name": "static-job-listings-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:dev": "webpack-dev-server",
+    "build:prod": "webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uroge/static-job-listings-master.git"
+  },
+  "author": "Uros Milosavljevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uroge/static-job-listings-master/issues"
+  },
+  "homepage": "https://github.com/uroge/static-job-listings-master#readme",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
